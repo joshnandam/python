@@ -1,0 +1,13 @@
+
+n=int(input("enter the value:"))
+for i in range(1,11):
+	print(n,'*',i,'=',n*i)
+	
+	
+	
+n=input("enter the string:")
+count=0
+for i in n :
+	print(i)
+	count+=1
+print("string length",count)
